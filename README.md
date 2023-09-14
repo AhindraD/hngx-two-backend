@@ -1,6 +1,10 @@
 # hngx-two-backend
 ##  NodeJS, ExpressJS, MongoDB
-### To run locally
+
+### Run directly in Postman without any setup (Public API points with documentation): https://documenter.getpostman.com/view/22888526/2s9YC5xsMh
+
+
+### To run LOCALLY
 1. Open the project in Code Editor
 2. Run this command to download dependency: 
 ```js
@@ -10,9 +14,7 @@ npm install
 ```js
 npm run dev
 ```
-4. Open postman and test the collection:
-## Postman Collection: https://documenter.getpostman.com/view/22888526/2s9YC5xsHH
-
+4. Open postman and test the Postman Collection: https://documenter.getpostman.com/view/22888526/2s9YC5xsHH
 
 
 ## End-point: all  persons

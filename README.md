@@ -1,5 +1,19 @@
 # hngx-two-backend
-# Postman Collection: https://documenter.getpostman.com/view/22888526/2s9YC5xsHH
+##  NodeJS, ExpressJS, MongoDB
+### To run locally
+1. Open the project in Code Editor
+2. Run this command to download dependency: 
+```js
+npm install
+```
+3. Run this command to start server locally: 
+```js
+npm run dev
+```
+4. Open postman and test the collection:
+## Postman Collection: https://documenter.getpostman.com/view/22888526/2s9YC5xsHH
+
+
 
 ## End-point: all  persons
 To get all the database with everyones data

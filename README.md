@@ -2,10 +2,10 @@
 # Project: hngx2
 
 ## End-point: all  persons
-To get all the database with everyone'e data
+To get all the database with everyones data
 ### Method: GET
 >```
->http://localhost:8000/api
+>https://hgnx-backend-two.onrender.com/api
 >```
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
@@ -13,7 +13,7 @@ To get all the database with everyone'e data
 ## End-point: Get one
 ### Method: GET
 >```
->http://localhost:8000/api/65038b07043c91af6d669ea9
+>https://hgnx-backend-two.onrender.com/api/65038b07043c91af6d669ea9
 >```
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
@@ -21,7 +21,7 @@ To get all the database with everyone'e data
 ## End-point: Update one
 ### Method: PUT
 >```
->http://localhost:8000/api/6503896312b15ccc225fc0c2
+>https://hgnx-backend-two.onrender.com/api/6503896312b15ccc225fc0c2
 >```
 ### Body (**raw**)
 
@@ -37,7 +37,7 @@ To get all the database with everyone'e data
 ## End-point: Delete one
 ### Method: DELETE
 >```
->http://localhost:8000/api/65038b07043c91af6d669ea9
+>https://hgnx-backend-two.onrender.com/api/65038b07043c91af6d669ea9
 >```
 
 
@@ -47,7 +47,7 @@ To get all the database with everyone'e data
 ## End-point: Create person
 ### Method: POST
 >```
->http://localhost:8000/api
+>https://hgnx-backend-two.onrender.com/api
 >```
 ### Body (**raw**)
 

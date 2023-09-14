@@ -39,11 +39,6 @@ To get all the database with everyone'e data
 >```
 >http://localhost:8000/api/65038b07043c91af6d669ea9
 >```
-### Query Params
-
-|Param|value|
-|---|---|
-|id|123|
 
 
 

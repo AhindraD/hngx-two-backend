@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "c4fd6c66-1f78-4c7a-a8ae-9fdb3013fca6",
+		"name": "hngx2 - Public API - w/o setup",
+		"description": "Run Directly w/o any setup",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22888526"
+	},
+	"item": [
+		{
+			"name": "All  persons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://hgnx-backend-two.onrender.com/api",
+					"protocol": "https",
+					"host": [
+						"hgnx-backend-two",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api"
+					]
+				},
+				"description": "To get all the database with everyone'e data"
+			},
+			"response": []
+		},
+		{
+			"name": "Get one",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://hgnx-backend-two.onrender.com/api/65038b17043c91af6d669eaf",
+					"protocol": "https",
+					"host": [
+						"hgnx-backend-two",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"65038b17043c91af6d669eaf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update one",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":  \"David Rose\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hgnx-backend-two.onrender.com/api/65038b17043c91af6d669eaf",
+					"protocol": "https",
+					"host": [
+						"hgnx-backend-two",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"65038b17043c91af6d669eaf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete one",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://hgnx-backend-two.onrender.com/api/65038b07043c91af6d669ea9",
+					"protocol": "https",
+					"host": [
+						"hgnx-backend-two",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"65038b07043c91af6d669ea9"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "123",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create person",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"David\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hgnx-backend-two.onrender.com/api",
+					"protocol": "https",
+					"host": [
+						"hgnx-backend-two",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
